@@ -1,39 +1,15 @@
-/*h1 {
-    color: orange;
-} */
-
-/* UTILITY CLASSES */
-
-.flex-row-space-between {
+#cards-container{
     display: flex;
     flex-direction: row;
-    justify-content: space-between;
-}
-.red {
-    color: red;
-}
-
-
-ul {
-    list-style: none;
     gap: 1em;
 }
 
-li {
-    display: flex;
-    flex-direction: row;
-    align-items: center; /* centrer su l'axe secondaire */
+.card{
+    width: 300px;
+    background-color: lightblue;
+    padding: 1em;
 }
 
-h1 {
-    font-family: 'Space Grotesk';
-}
-
-h2 {
-    color: green;
-}
-
-h2:hover {
-    transition: color 3s;
-    color: red;
+.card img{
+    width: 100%;
 }
